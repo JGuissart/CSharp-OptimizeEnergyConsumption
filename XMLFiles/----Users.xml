@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CUser>
+    <Login>aaaa</Login>
+    <Password>aaaa</Password>
+  </CUser>
+  <CUser>
+    <Login>Guiss</Login>
+    <Password>70-C8-81-D4-A2-69-84-DD-CE-79-5F-6F-71-81-7C-9C-F4-48-0E-79</Password>
+  </CUser>
+  <CUser>
+    <Login>bbbb</Login>
+    <Password>9A-67-47-FC-62-59-AA-37-4A-B4-E1-BB-03-07-4B-6E-C6-72-CF-99</Password>
+  </CUser>
+  <CUser>
+    <Login>bbbb</Login>
+    <Password>70-C8-81-D4-A2-69-84-DD-CE-79-5F-6F-71-81-7C-9C-F4-48-0E-79</Password>
+  </CUser>
+  <CUser>
+    <Login>dddd</Login>
+    <Password>01-46-4E-16-16-E3-FD-D5-C6-0C-0C-C5-51-6C-1D-14-54-CC-41-85</Password>
+  </CUser>
+  <CUser>
+    <Login>eeee</Login>
+    <Password>B2-C4-EE-5D-E8-28-66-DB-38-F7-9C-6D-4A-91-A6-26-48-6B-70-E9</Password>
+  </CUser>
+</ArrayOfCUser>

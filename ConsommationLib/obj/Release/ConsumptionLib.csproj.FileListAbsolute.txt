@@ -1,0 +1,4 @@
+C:\Users\Julien\Documents\Visual Studio 2012\Projects\ApplicationFinaleJuin2014\ConsommationLib\bin\Release\ConsumptionLib.dll
+C:\Users\Julien\Documents\Visual Studio 2012\Projects\ApplicationFinaleJuin2014\ConsommationLib\bin\Release\ConsumptionLib.pdb
+C:\Users\Julien\Documents\Visual Studio 2012\Projects\ApplicationFinaleJuin2014\ConsommationLib\obj\Release\ConsumptionLib.dll
+C:\Users\Julien\Documents\Visual Studio 2012\Projects\ApplicationFinaleJuin2014\ConsommationLib\obj\Release\ConsumptionLib.pdb

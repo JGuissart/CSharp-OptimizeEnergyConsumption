@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ConsumptionLib.CAdress" Collapsed="true">
+    <Position X="3" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAARAAAAAAAAEEAAAQAAIAAAAAAAAAAAAABABAAI=</HashCode>
+      <FileName>CAdress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsumptionLib.CAppliance" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAKAAgAAxQEABXAACAGhIAAYAABAQgAQABABFA=</HashCode>
+      <FileName>CAppliance.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ConsumptionLib.CApplianceSleepMode" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABIAAAAAAEQAAAACAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>CApplianceSleepMode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsumptionLib.CAutorisation" Collapsed="true">
+    <Position X="6" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBIAAAAAACAEAABAAAgAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>CAutorisation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConsumptionLib.CFloor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIABAAAAAAAAAAAAAAAAAAAgADA=</HashCode>
+      <FileName>CFloor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ConsumptionLib.CHouse" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAEAAAAAEAQEAAAAAAAAAAAAAAAAAAAAQIBAABA=</HashCode>
+      <FileName>CHouse.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.242" Collapsed="true" />
+  </Class>
+  <Class Name="ConsumptionLib.CRoom" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAEAACQAAIAhAEAAUAAAAGAIAAAAQAAAAAAAAAABA=</HashCode>
+      <FileName>CRoom.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ConsumptionLib.CUser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAEAGAAAAAAAAAAAAAAACAABQAAAAABA=</HashCode>
+      <FileName>CUser.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ConsumptionLib.NullOrEmptyStringException" Collapsed="true">
+    <Position X="3" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NullOrEmptyStringException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ConsumptionLib.IConsumable" Collapsed="true">
+    <Position X="3" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAgAAAAAAAAAACAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>IConsumable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ConsumptionLib.IDrawable" Collapsed="true">
+    <Position X="6" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAhAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IDrawable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ConsumptionLib.TypeAppareil" Collapsed="true">
+    <Position X="3" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAAAAABAQ=</HashCode>
+      <FileName>CAppliance.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

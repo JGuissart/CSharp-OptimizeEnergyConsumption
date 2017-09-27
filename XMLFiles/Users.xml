@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCUser xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CUser>
+    <Login>aaaa</Login>
+    <Password>70-C8-81-D4-A2-69-84-DD-CE-79-5F-6F-71-81-7C-9C-F4-48-0E-79</Password>
+  </CUser>
+  <CUser>
+    <Login>bbbb</Login>
+    <Password>8A-ED-13-22-E5-45-0B-AD-B0-78-E1-FB-60-A8-17-A1-DF-25-A2-CA</Password>
+  </CUser>
+</ArrayOfCUser>

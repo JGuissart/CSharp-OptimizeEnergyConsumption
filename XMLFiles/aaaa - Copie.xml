@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCHouse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CHouse>
+    <IDMaison>Maison 1</IDMaison>
+    <ListeEtage>
+      <CFloor>
+        <NomEtage>Rez-de-chaussée</NomEtage>
+        <ListePiece>
+          <CRoom>
+            <NomPiece>Cuisine</NomPiece>
+            <Couleur>0</Couleur>
+            <PointAncrage>
+              <X>28</X>
+              <Y>22</Y>
+            </PointAncrage>
+            <TopLeft>
+              <X>28</X>
+              <Y>22</Y>
+            </TopLeft>
+            <Longueur>797</Longueur>
+            <Largeur>77</Largeur>
+            <ListeApp />
+          </CRoom>
+          <CRoom>
+            <NomPiece>Salon</NomPiece>
+            <Couleur>1</Couleur>
+            <PointAncrage>
+              <X>28</X>
+              <Y>105</Y>
+            </PointAncrage>
+            <TopLeft>
+              <X>28</X>
+              <Y>105</Y>
+            </TopLeft>
+            <Longueur>435</Longueur>
+            <Largeur>389</Largeur>
+            <ListeApp />
+          </CRoom>
+          <CRoom>
+            <NomPiece>Toilettes</NomPiece>
+            <Couleur>2</Couleur>
+            <PointAncrage>
+              <X>467</X>
+              <Y>105</Y>
+            </PointAncrage>
+            <TopLeft>
+              <X>467</X>
+              <Y>105</Y>
+            </TopLeft>
+            <Longueur>358</Longueur>
+            <Largeur>387</Largeur>
+            <ListeApp />
+          </CRoom>
+        </ListePiece>
+      </CFloor>
+    </ListeEtage>
+    <PathImage>C:\Users\Julien\Documents\Visual Studio 2012\Projects\ApplicationFinaleJuin2014\Images\Maisons\Maison01.jpg</PathImage>
+    <Adresse>
+      <Rue>Rue du Pont de Wandre</Rue>
+      <Numero>164</Numero>
+      <CodePostal>4020</CodePostal>
+      <Localite>Wandre</Localite>
+    </Adresse>
+  </CHouse>
+  <CHouse>
+    <IDMaison>Maison 2</IDMaison>
+    <ListeEtage />
+    <PathImage>C:\Users\Julien\Documents\Visual Studio 2012\Projects\ApplicationFinaleJuin2014\Images\Maisons\Maison02.jpg</PathImage>
+    <Adresse>
+      <Rue>Rue Hahelette</Rue>
+      <Numero>12</Numero>
+      <CodePostal>4600</CodePostal>
+      <Localite>Richelle</Localite>
+    </Adresse>
+  </CHouse>
+  <CHouse>
+    <IDMaison>Maison 3</IDMaison>
+    <ListeEtage />
+    <PathImage>C:\Users\Julien\Documents\Visual Studio 2012\Projects\ApplicationFinaleJuin2014\Images\Maisons\Maison03.JPG</PathImage>
+    <Adresse>
+      <Rue>Rue de Visé</Rue>
+      <Numero>31</Numero>
+      <CodePostal>4602</CodePostal>
+      <Localite>Cheratte</Localite>
+    </Adresse>
+  </CHouse>
+</ArrayOfCHouse>

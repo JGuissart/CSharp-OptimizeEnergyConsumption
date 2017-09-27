@@ -1,0 +1,5 @@
+C:\Users\Julien\Documents\Visual Studio 2012\Projects\ApplicationFinaleJuin2014\ConsommationLib\bin\Debug\ConsumptionLib.dll
+C:\Users\Julien\Documents\Visual Studio 2012\Projects\ApplicationFinaleJuin2014\ConsommationLib\bin\Debug\ConsumptionLib.pdb
+C:\Users\Julien\Documents\Visual Studio 2012\Projects\ApplicationFinaleJuin2014\ConsommationLib\obj\Debug\ConsumptionLib.dll
+C:\Users\Julien\Documents\Visual Studio 2012\Projects\ApplicationFinaleJuin2014\ConsommationLib\obj\Debug\ConsumptionLib.pdb
+C:\Users\Julien\Documents\Visual Studio 2012\Projects\ApplicationFinaleJuin2014\ConsommationLib\obj\Debug\ConsumptionLib.csprojResolveAssemblyReference.cache

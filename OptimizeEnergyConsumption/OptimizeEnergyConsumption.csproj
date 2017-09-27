@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E37216D8-15A0-4255-AD2F-C93E603D7DB2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OptimizeEnergyConsumption</RootNamespace>
+    <AssemblyName>OptimizeEnergyConsumption</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.7.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.7.5\Assemblies\v4.5\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF5, Version=6.7.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.7.5\Assemblies\v4.5\MySql.Data.Entity.EF5.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.7.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.7.5\Assemblies\v4.5\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Serialization" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAffichageResultatSimulation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAffichageResultatSimulation.Designer.cs">
+      <DependentUpon>FormAffichageResultatSimulation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAppareilAjout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAppareilAjout.Designer.cs">
+      <DependentUpon>FormAppareilAjout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAppareilAjoutHeure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAppareilAjoutHeure.Designer.cs">
+      <DependentUpon>FormAppareilAjoutHeure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMaisonModif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMaisonModif.Designer.cs">
+      <DependentUpon>FormMaisonModif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPieceModif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPieceModif.Designer.cs">
+      <DependentUpon>FormPieceModif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSimulationChoix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSimulationChoix.Designer.cs">
+      <DependentUpon>FormSimulationChoix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserAjout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserAjout.Designer.cs">
+      <DependentUpon>FormUserAjout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAppareilAjoutSpecifications.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAppareilAjoutSpecifications.Designer.cs">
+      <DependentUpon>FormAppareilAjoutSpecifications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAppareilModif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAppareilModif.Designer.cs">
+      <DependentUpon>FormAppareilModif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEtageAjout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEtageAjout.Designer.cs">
+      <DependentUpon>FormEtageAjout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMaisonAjout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMaisonAjout.Designer.cs">
+      <DependentUpon>FormMaisonAjout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserModif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserModif.Designer.cs">
+      <DependentUpon>FormUserModif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPieceAjout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPieceAjout.Designer.cs">
+      <DependentUpon>FormPieceAjout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TESTFORM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TESTFORM.Designer.cs">
+      <DependentUpon>TESTFORM.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAffichageResultatSimulation.resx">
+      <DependentUpon>FormAffichageResultatSimulation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAppareilAjout.resx">
+      <DependentUpon>FormAppareilAjout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAppareilAjoutHeure.resx">
+      <DependentUpon>FormAppareilAjoutHeure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMaisonModif.resx">
+      <DependentUpon>FormMaisonModif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPieceModif.resx">
+      <DependentUpon>FormPieceModif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSimulationChoix.resx">
+      <DependentUpon>FormSimulationChoix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserAjout.resx">
+      <DependentUpon>FormUserAjout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAppareilAjoutSpecifications.resx">
+      <DependentUpon>FormAppareilAjoutSpecifications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAppareilModif.resx">
+      <DependentUpon>FormAppareilModif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEtageAjout.resx">
+      <DependentUpon>FormEtageAjout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMaisonAjout.resx">
+      <DependentUpon>FormMaisonAjout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserModif.resx">
+      <DependentUpon>FormUserModif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPieceAjout.resx">
+      <DependentUpon>FormPieceAjout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="TESTFORM.resx">
+      <DependentUpon>TESTFORM.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConsommationLib\ConsumptionLib.csproj">
+      <Project>{1519c895-3b06-440b-bbf5-8f5002be7724}</Project>
+      <Name>ConsumptionLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
